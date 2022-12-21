@@ -110,6 +110,18 @@ UPDATE `locales_quest` SET `RequestItemsText_loc3`="Mit Hilfe der Pylon-Tafel k�
 -- All Pylons have the same reward text
 UPDATE `locales_quest` SET `OfferRewardText_loc3`="Ihr ordnet die Kristalle auf der Tafel an, die einzelnen Farben sorgfältig ausgerichtet. Als Ihr den letzten Kristall an den richtigen Platz legt, verbinden sich die Kristalle in einer Lichtexplosion miteinander.$b$bDie daraus entstandene Kombination gehört nun Euch." WHERE `entry` IN (4385,4381,4382,4386,4383,4384);
 
+-- Savage Fronds
+UPDATE `locales_quest` SET `RequestItemsText_loc3`="Für jeden Bündel Wildwedel, den Ihr bei mir abliefert, werde ich Euch mit einer von Euch gewählten Insignie, die der Dämmerung oder die des Kreuzzugs, bezahlen.$b$bDie Insignien können beim Rüstmeister für vielerlei Belohnungen eingetauscht werden." WHERE `entry` = 9137;
+UPDATE `locales_quest` SET `OfferRewardText_loc3`="Danke, $N. Eure Arbeit ist für den Erfolg unseres Feldzugs gegen die Geißel unerlässlich." WHERE `entry` = 9137;
+
+-- Core of Elements
+UPDATE `locales_quest` SET `RequestItemsText_loc3`="Glaubt mir, ich verwende diese Kerne zum Anfertigen von Frostfeuerrüstungen. Es ist die Rüstung, die von Magiern getragen wird, die in Naxxramas kämpfen. Ohne Euch und Euresgleichen, würden wir diesen Krieg höchstwahrscheinlich verlieren.$b$bBringt Ihr mir auch weiterhin mehr Kerne, so werde ich Euch dafür wieder mit Insignien entlohnen." WHERE `entry` = 9129;
+UPDATE `locales_quest` SET `OfferRewardText_loc3`="Ihr erweist uns einen großen Dienst, $N. Gut gemacht!" WHERE `entry` = 9129;
+
+-- Bone Fragments
+UPDATE `locales_quest` SET `RequestItemsText_loc3`="Ein Mann meines Berufsstandes kann niemals zu viele Knochenfragmente besitzen, $N. Kommt zu mir, wann immer Ihr einen Überschuss an Fragmenten habt, ich tausche sie dann gegen eine weitere Insignie ein." WHERE `entry` = 9127;
+UPDATE `locales_quest` SET `OfferRewardText_loc3`="Mein Traum von einer Karriere als professioneller Tänzer in der Disko von Gadgetzan wird sich schon bald verwirklichen! Gute Arbeit, weiter so, $N." WHERE `entry` = 9127;
+
 -- End of migration.
 END IF;
 END??
