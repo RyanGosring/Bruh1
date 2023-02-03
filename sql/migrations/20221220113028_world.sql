@@ -122,6 +122,18 @@ UPDATE `locales_quest` SET `OfferRewardText_loc3`="Ihr erweist uns einen großen
 UPDATE `locales_quest` SET `RequestItemsText_loc3`="Ein Mann meines Berufsstandes kann niemals zu viele Knochenfragmente besitzen, $N. Kommt zu mir, wann immer Ihr einen Überschuss an Fragmenten habt, ich tausche sie dann gegen eine weitere Insignie ein." WHERE `entry` = 9127;
 UPDATE `locales_quest` SET `OfferRewardText_loc3`="Mein Traum von einer Karriere als professioneller Tänzer in der Disko von Gadgetzan wird sich schon bald verwirklichen! Gute Arbeit, weiter so, $N." WHERE `entry` = 9127;
 
+-- Rare Fish - Dezian Queenfish
+UPDATE `locales_quest` SET `RequestItemsText_loc3`="*Surrr* *PLIIING*$b$bIch suche besondere Fische, um sie für Fischereimeister Bluegill zu katalogisieren. Bringt mir einen dezianischen Königinnenfisch und ich werde Euch eine feine Belohnung zuteil werden lassen.$b$b*KLING**Bzzzz*" WHERE `entry` = 8224;
+UPDATE `locales_quest` SET `OfferRewardText_loc3`="*Surrr*$b$bIdentifizierung und Katalogisierung des dezianischen Königinnenfisches abgeschlossen.$b$bEure Belohnung ist nun erhältlich.$b$b*PLIIING-PLIIING**Bzzzz*" WHERE `entry` = 8224;
+
+-- Rare Fish - Brownell's Blue Striped Racer
+UPDATE `locales_quest` SET `RequestItemsText_loc3`="*Surrr* *PLIIING*$b$bIch suche besondere Fische, um sie für Fischereimeister Bluegill zu katalogisieren. Bringt mir einen von diesen Braunells blaugestreiften Flitzerfischen und ich werde Euch eine feine Belohnung zuteil werden lassen.$b$b*KLING**Bzzzz*" WHERE `entry` = 8225;
+UPDATE `locales_quest` SET `OfferRewardText_loc3`="*Surrr*$b$bIdentifizierung und Katalogisierung von Braunells blaugestreiften Flitzerfisch abgeschlossen.$b$bEure Belohnung ist nun erhältlich.$b$b*PLIIING-PLIIING**Bzzzz*" WHERE `entry` = 8225;
+
+-- Rare Fish - Keefer's Angelfish
+UPDATE `locales_quest` SET `RequestItemsText_loc3`="*Surrr* *PLIIING*$b$bIch suche besondere Fische, um sie für Fischereimeister Bluegill zu katalogisieren. Bringt mir einen Kiefers Engelfisch und ich werde Euch eine feine Belohnung zuteil werden lassen.$b$b*KLING**Bzzzz*" WHERE `entry` = 8221;
+UPDATE `locales_quest` SET `OfferRewardText_loc3`="*Surrr*$b$bIdentifizierung und Katalogisierung von Kiefers Engelfisch abgeschlossen.$b$bEure Belohnung ist nun erhältlich.$b$b*PLIIING-PLIIING**Bzzzz*" WHERE `entry` = 8221;
+
 -- End of migration.
 END IF;
 END??
