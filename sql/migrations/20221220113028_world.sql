@@ -134,6 +134,12 @@ UPDATE `locales_quest` SET `OfferRewardText_loc3`="*Surrr*$b$bIdentifizierung un
 UPDATE `locales_quest` SET `RequestItemsText_loc3`="*Surrr* *PLIIING*$b$bIch suche besondere Fische, um sie für Fischereimeister Bluegill zu katalogisieren. Bringt mir einen Kiefers Engelfisch und ich werde Euch eine feine Belohnung zuteil werden lassen.$b$b*KLING**Bzzzz*" WHERE `entry` = 8221;
 UPDATE `locales_quest` SET `OfferRewardText_loc3`="*Surrr*$b$bIdentifizierung und Katalogisierung von Kiefers Engelfisch abgeschlossen.$b$bEure Belohnung ist nun erhältlich.$b$b*PLIIING-PLIIING**Bzzzz*" WHERE `entry` = 8221;
 
+-- Meeting with the Master
+UPDATE `locales_quest` SET `OfferRewardText_loc3`="Es gab Zeiten, in denen ich alles von denen, die meinen Meister aufsuchen wollten, verlangen konnte. Heute ist es anders, Ihr müsst nur nach ihm fragen und ich schicke Euch zu ihm.$b$bEs ist ärgerlich für mich, aber ich stelle seine Befehle nicht in Frage. Ich kann mich lediglich an Eurer lächerlichen Aufmachung oder Eurem jämmerlichen Gesichtsausdruck erfreuen. Selbst das langweilt mich...$b$bSogar dieses Geschwafel langweilt mich! Möchtet Ihr meinen Meister sehen oder nicht?" WHERE `entry` = 3503;
+
+-- Return Trip
+UPDATE `locales_quest` SET `OfferRewardText_loc3`="Ich werde Euch jetzt zu Sanaths Lager zurückbringen.$b$bMacht Euch nichts aus seinen schlechten Manieren - er ist zu allen unhöflich, außer zum Meister. Vielleicht wird er seine Lektion eines Tages lernen." WHERE `entry` = 3421;
+
 -- End of migration.
 END IF;
 END??
