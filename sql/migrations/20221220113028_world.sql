@@ -140,6 +140,9 @@ UPDATE `locales_quest` SET `OfferRewardText_loc3`="Es gab Zeiten, in denen ich a
 -- Return Trip
 UPDATE `locales_quest` SET `OfferRewardText_loc3`="Ich werde Euch jetzt zu Sanaths Lager zurückbringen.$b$bMacht Euch nichts aus seinen schlechten Manieren - er ist zu allen unhöflich, außer zum Meister. Vielleicht wird er seine Lektion eines Tages lernen." WHERE `entry` = 3421;
 
+-- An OOX of Your Own
+UPDATE `locales_quest` SET `OfferRewardText_loc3`="Ihr habt drei meiner OOX-Leitroboter gefunden! Ihr habt viel mehr als das getan, worum ich Euch gebeten hatte. Daher will ich Euch etwas Besonderes für Eure Hilfe geben. Dies ist eine Miniaturversion jenes Roboters, den Ihr jetzt kennt und liebt, den OOX!$b$bIch würde normalerweise niemandem solch ein potenziell tödliches Gerät anvertrauen, aber Ihr wart eine wirklich große Hilfe. Außerdem wurden die Kampfmechanismen und die Leitlogik dieses Exemplars deaktiviert.$b$bAber abgesehen davon ist das ein echter OOX!" WHERE `entry` = 3721;
+
 -- End of migration.
 END IF;
 END??
