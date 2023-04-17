@@ -143,6 +143,15 @@ UPDATE `locales_quest` SET `OfferRewardText_loc3`="Ich werde Euch jetzt zu Sanat
 -- An OOX of Your Own
 UPDATE `locales_quest` SET `OfferRewardText_loc3`="Ihr habt drei meiner OOX-Leitroboter gefunden! Ihr habt viel mehr als das getan, worum ich Euch gebeten hatte. Daher will ich Euch etwas Besonderes für Eure Hilfe geben. Dies ist eine Miniaturversion jenes Roboters, den Ihr jetzt kennt und liebt, den OOX!$b$bIch würde normalerweise niemandem solch ein potenziell tödliches Gerät anvertrauen, aber Ihr wart eine wirklich große Hilfe. Außerdem wurden die Kampfmechanismen und die Leitlogik dieses Exemplars deaktiviert.$b$bAber abgesehen davon ist das ein echter OOX!" WHERE `entry` = 3721;
 
+-- Restoring Fiery Flux Supplies via Iron
+UPDATE `locales_quest` SET `RequestItemsText_loc3`="Lasst uns nicht noch mehr meiner kostbaren Zeit mit Geplapper verschwenden, $R. Wir müssen unseren schwindenden Vorrat an feurigen Fluxus wieder aufstocken.$b$bIch brauche Euch, um mir folgendes zu beschaffen:$b$b*Incendosaurierschuppen.$b$b*Eisenbarren.$b$b*Kohle.$b$bIch nehme alles was Ihr kriegen könnt!$b$bUnd seid besser schnell! Ihr wollt es Euch doch nicht mit der Bruderschaft verderben, oder?" WHERE `entry` = 8241;
+
+-- Restoring Fiery Flux Supplies via Kingsblood
+UPDATE `locales_quest` SET `RequestItemsText_loc3`="Lasst uns nicht noch mehr meiner kostbaren Zeit mit Geplapper verschwenden, $R. Wir müssen unseren schwindenden Vorrat an feurigen Fluxus wieder aufstocken.$b$bIch brauche Euch, um mir folgendes zu beschaffen:$b$b*Incendosaurierschuppen.$b$b*Königsblut.$b$b*Kohle.$b$bIch nehme alles was Ihr kriegen könnt!$b$bUnd seid besser schnell! Ihr wollt es Euch doch nicht mit der Bruderschaft verderben, oder?" WHERE `entry` = 7736;
+
+-- Restoring Fiery Flux Supplies via Heavy Leather
+UPDATE `locales_quest` SET `RequestItemsText_loc3`="Lasst uns nicht noch mehr meiner kostbaren Zeit mit Geplapper verschwenden, $R. Wir müssen unseren schwindenden Vorrat an feurigen Fluxus wieder aufstocken.$b$bIch brauche Euch, um mir folgendes zu beschaffen:$b$b*Incendosaurierschuppen.$b$b*Schweres Leder.$b$b*Kohle.$b$bIch nehme alles was Ihr kriegen könnt!$b$bUnd seid besser schnell! Ihr wollt es Euch doch nicht mit der Bruderschaft verderben, oder?" WHERE `entry` = 8242;
+
 -- End of migration.
 END IF;
 END??
