@@ -18,16 +18,16 @@
 set(EXECUTABLE_NAME mangosd)
 set(EXECUTABLE_SRCS 
   CliRunnable.h
-  MaNGOSsoap.h
   Master.h
-  RASocket.h
   WorldRunnable.h
   CliRunnable.cpp
   Main.cpp
-  MaNGOSsoap.cpp
   Master.cpp
-  RASocket.cpp
   WorldRunnable.cpp
+  remote/RemoteAccess/RASocket.h
+  remote/RemoteAccess/RASocket.cpp
+  remote/soap/MaNGOSsoap.h
+  remote/soap/MaNGOSsoap.cpp
 )
 
 
